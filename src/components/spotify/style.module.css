@@ -1,0 +1,79 @@
+.div_parent_Spotify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.h2_Spotify {
+    color: rgba(30, 215, 96, 1);
+    font-size: 64px;
+}
+
+
+.p_Spotify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 32px;
+    color: rgba(30, 215, 96, 1);
+    font-size: 32px;
+    margin-bottom: 31px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.div_buttons {
+    border: 3px solid rgba(30, 215, 96, 1);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 38px; */
+    max-width: 446px;
+}
+
+
+.btn {
+    margin: 36px 18px 41px;
+    fill: #1ed760;
+    transition: all 0.5s ease;
+    width: 105px;
+    height: 98px;
+    cursor: pointer;
+    overflow: visible;
+
+}
+
+.btn:hover * {
+    fill: #1181f1;
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 1000px) {
+    .h2_Spotify {
+        font-size: 32px;
+    }
+
+    .p_Spotify {
+        margin-top: 16px;
+        font-size: 16px;
+    }
+
+    .btn {
+
+        width: 55px;
+        height: 49px;
+        padding: 10px;
+        margin-right: 12px;
+    }
+
+    .div_buttons {
+        height: 175px;
+        min-width: ;
+    }
+}
